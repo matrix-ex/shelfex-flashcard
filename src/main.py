@@ -198,6 +198,6 @@ if st.session_state.flashcards:
 st.markdown("---")
 st.markdown("""
 <div style="text-align:center; color: #888; font-size: 0.9rem;">
-    © 2025 <strong>Flashcard Generator</strong> | Powered by <strong>Google Gemini</strong>
+    Flashcard Generator</strong> | Powered by <strong>Google Gemini</strong>
 </div>
 """, unsafe_allow_html=True)
