@@ -15,7 +15,3 @@ class Exporter:
     @staticmethod
     def to_json_string(flashcards):
         return json.dumps(flashcards, indent=2, ensure_ascii=False)
-
-    @staticmethod
-    def to_anki_string(flashcards):
-        return "\n".join([f"{card['question']}\t{card['answer']}" for card in flashcards])
