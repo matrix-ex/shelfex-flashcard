@@ -12,7 +12,8 @@
 
 ### Requirements  
 - Python 3.8+  
-- Google Gemini API key ([Get API key](https://aistudio.google.com/))  
+- Google Gemini API key ([Get API key](https://aistudio.google.com/))
+- streamlit   
 
 ## Setup  
 
@@ -71,3 +72,30 @@ project/
 └── requirements.txt
 ```
 
+## App Screenshot
+![Demo](assets/image.png)
+
+## Sample input 
+Computer vision is an interdisciplinary field that deals with how computers can be made to gain high-level understanding from digital images or videos. From the perspective of engineering, it seeks to automate tasks that the human visual system can do. "Computer vision is concerned with the automatic extraction, analysis, and understanding of useful information from a single image or a sequence of images. It involves the development of a theoretical and algorithmic basis to achieve automatic visual understanding. As a scientific discipline, computer vision is concerned with the theory behind artificial systems that extract information from images. The image data can take many forms, such as video sequences, views from multiple cameras, or multi-dimensional data from a medical scanner. As a technological discipline, computer vision seeks to apply its theories and models for the construction of computer vision systems. Machine vision refers to a systems engineering discipline, especially in the context of factory automation. In more recent times, the terms computer vision and machine vision have converged to a greater degree.
+
+## Output
+```yaml
+[
+  {
+    "question": "What is computer vision?",
+    "answer": "An interdisciplinary field that enables computers to understand digital images and videos.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What does computer vision aim to automate?",
+    "answer": "Tasks that the human visual system can perform.",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the main goal of computer vision?",
+    "answer": "To extract, analyze, and understand information from images or videos.",
+    "difficulty": "Easy"
+  },
+...
+]
+```
